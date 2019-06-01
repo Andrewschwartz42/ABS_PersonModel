@@ -74,20 +74,20 @@ int main()
 	//int postalcode = 0;
 
 
-	cout << "Enter your first name: \n";
+	cout << "How Similar are you to Tim Corey? \nEnter your first name: ";
 	cin >> myString;
 	testPerson.firstname = myString;
 
-	cout << "\nEnter your last name: \n";
+	cout << "\nEnter your last name: ";
 	cin >> myString;
 	testPerson.lastname = myString;
 
-	cout << "\nEnter your Postal Code: \n";
+	cout << "\nEnter your Postal Code: ";
 	cin >> myInt;
 	testPerson.postalcode = myInt;
 
 	ApplyRules(testPerson);
 
-	cout << "\nProgram finished!";
+	//cout << "\nProgram finished!";
 }
 
